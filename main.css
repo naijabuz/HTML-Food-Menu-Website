@@ -4,7 +4,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  padding: 10px 20px;
+  padding: 5px 20px;
   background-color: #f0f0f0;
 }
 
@@ -43,4 +43,35 @@ li {
   padding-bottom: 20px;
 }
 
-/* HOMEPAGE CSS STYLES */
+h2 {
+  padding-top: 20px;
+}
+
+/* FOOD TABLE CSS STYLES */
+
+table,
+th,
+td {
+  font-size: 13px;
+}
+
+.table-heading {
+  background-color: blueviolet;
+  color: #f0f0f0;
+}
+
+table {
+  margin-top: 30px;
+  border-collapse: collapse; /* Remove gaps between cells */
+  width: 100%; /* Adjust table width as needed */
+}
+th,
+td {
+  text-align: left; /* Align content to the left */
+  padding: 10px; /* Add padding for readability */
+  border: 1px solid #2020207d; /* Add table borders */
+}
+th {
+  background-color: #f2f2f2; /* Light background for headers */
+  font-weight: bold; /* Make headers bold */
+}
